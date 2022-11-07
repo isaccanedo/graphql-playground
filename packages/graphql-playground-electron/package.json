@@ -1,0 +1,183 @@
+{
+  "name": "graphql-playground-electron",
+  "productName": "GraphQL Playground",
+  "homepage": "https://github.com/graphcool/graphql-playground",
+  "repository": "graphcool/graphql-playground",
+  "description": "GraphQL IDE for better development workflows (GraphQL Subscriptions, interactive docs & collaboration)",
+  "version": "1.8.10",
+  "author": {
+    "name": "Graphcool",
+    "email": "hello@graph.cool",
+    "url": "https://www.graph.cool"
+  },
+  "main": "lib/main",
+  "build": {
+    "appId": "cool.graph.playground",
+    "mac": {
+      "category": "public.app-category.developer-tools",
+      "icon": "static/icons/icon.icns"
+    },
+    "win": {
+      "icon": "static/icons/icon.ico"
+    },
+    "linux": {
+      "category": "Development",
+      "target": [
+        "AppImage",
+        "snap",
+        "deb"
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": true,
+      "allowElevation": true,
+      "allowToChangeInstallationDirectory": true,
+      "runAfterFinish": false
+    },
+    "files": [
+      "lib/**/!(*.map)"
+    ],
+    "directories": {
+      "output": "build-electron"
+    },
+    "fileAssociations": {
+      "ext": "graphql",
+      "name": "GraphQL",
+      "role": "Editor"
+    },
+    "protocols": {
+      "name": "graphql-playground-protocol",
+      "schemes": [
+        "graphql-playground"
+      ]
+    }
+  },
+  "scripts": {
+    "build:ts": "rimraf lib && tsc",
+    "build:webpack": "rimraf ./dist && NODE_ENV=production GRAPHQL_ENDPOINT=$BACKEND_ADDR/system webpack --config webpack.config.build.js && cp -r static/* dist",
+    "build": "npm run build:ts && npm run build:webpack && cp -r dist lib && rimraf ./build:electron",
+    "release": "npm run build && electron-builder -lmw",
+    "release:mac": "npm run build && electron-builder -m",
+    "release:win": "npm run build && electron-builder -w",
+    "release:linux": "npm run build && electron-builder -l",
+    "library": "rimraf .happypack && NODE_ENV=production webpack --config webpack.library.js -p",
+    "lint": "tslint \"src/**/*.ts{,x}\" && lint-staged",
+    "start": "yarn build:ts && concurrently \"yarn start:react\" \"wait-on http://localhost:4040/ && yarn start:electron\"",
+    "start:react": "webpack-dev-server --hot --profile --history-api-fallback --host 0.0.0.0 --port 4040",
+    "start:electron": "electron lib/main",
+    "stats": "NODE_ENV=production webpack --config webpack.library.js  --profile --json > stats.json",
+    "test": "npm run lint",
+    "precommit": "lint-staged",
+    "prettier": "prettier --single-quote --no-semi --trailing-comma all --write '*.{js,ts,tsx}' 'src/**/*.{js,ts,tsx}'"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "prettier --single-quote --no-semi --trailing-comma all --write",
+      "tslint",
+      "git add"
+    ]
+  },
+  "pre-push": [
+    "test-quick"
+  ],
+  "dependencies": {
+    "@types/ms": "^0.7.30",
+    "classnames": "^2.2.5",
+    "date-fns": "^1.29.0",
+    "electron-is-dev": "^0.3.0",
+    "electron-localshortcut": "^3.1.0",
+    "electron-log": "^2.2.14",
+    "electron-updater": "^3.2.3",
+    "find-up": "^2.1.0",
+    "graphcool-styles": "0.2.7",
+    "graphcool-ui": "^0.0.14",
+    "graphql": "^0.13.2",
+    "graphql-config": "^2.1.0",
+    "graphql-config-extension-graphcool": "1.0.8",
+    "graphql-config-extension-prisma": "^0.2.5",
+    "graphql-playground-html": "^1.6.0",
+    "graphql-playground-react": "1.7.20",
+    "immutable": "4.0.0-rc.9",
+    "js-yaml": "^3.11.0",
+    "lodash.merge": "^4.6.1",
+    "minimist": "^1.2.0",
+    "ms": "^2.1.1",
+    "query-string": "^5.0.1",
+    "raven": "^2.4.2",
+    "react": "16.2.0",
+    "react-dom": "^16.4.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-localstorage": "rc",
+    "redux-localstorage-filter": "^0.1.1",
+    "reselect": "^3.0.1",
+    "semver": "^5.5.0",
+    "styled-jsx": "2.2.6",
+    "styled-jsx-postcss": "git+https://github.com/timsuchanek/styled-jsx-postcss#build3",
+    "sweetalert2": "^7.21.0",
+    "validator": "^9.2.0"
+  },
+  "devDependencies": {
+    "@types/classnames": "2.2.3",
+    "@types/node": "9.4.0",
+    "@types/react": "16.0.34",
+    "@types/react-addons-test-utils": "0.14.20",
+    "@types/react-dom": "16.0.3",
+    "@types/react-redux": "5.0.14",
+    "awesome-typescript-loader": "5.0.0",
+    "babel-cli": "6.26.0",
+    "babel-loader": "7.1.4",
+    "babel-plugin-transform-runtime": "6.23.0",
+    "babel-preset-latest": "6.24.1",
+    "babel-preset-react": "6.24.1",
+    "babel-preset-react-hmre": "1.1.1",
+    "babel-runtime": "6.26.0",
+    "babili-webpack-plugin": "0.1.2",
+    "concurrently": "3.5.1",
+    "css-loader": "0.28.11",
+    "electron": "2.0.11",
+    "electron-builder": "^20.34.0",
+    "electron-devtools-installer": "2.2.4",
+    "extract-text-webpack-plugin": "3.0.2",
+    "file-loader": "1.1.11",
+    "fork-ts-checker-webpack-plugin": "0.4.1",
+    "happypack": "5.0.0",
+    "html-webpack-plugin": "3.2.0",
+    "identity-obj-proxy": "3.0.0",
+    "json-loader": "0.5.7",
+    "lint-staged": "7.1.2",
+    "node-noop": "1.0.0",
+    "polished": "1.9.2",
+    "postcss-inherit": "git+https://github.com/timsuchanek/postcss-inherit#build3",
+    "postcss-loader": "0.9.1",
+    "postcss-simple-vars": "3.1.0",
+    "prettier": "1.13.0",
+    "raw-loader": "0.5.1",
+    "react-addons-test-utils": "15.6.2",
+    "react-test-renderer": "16.4.0",
+    "redux-mock-store": "1.5.1",
+    "rimraf": "2.6.2",
+    "style-loader": "0.20.1",
+    "svgo-loader": "1.2.1",
+    "ts-loader": "3.4.0",
+    "tslint": "5.10.0",
+    "tslint-graphcool-frontend": "0.0.3",
+    "tslint-loader": "3.6.0",
+    "typescript": "3.0.1",
+    "url-loader": "0.6.2",
+    "wait-on": "2.1.0",
+    "webpack": "3.10.0",
+    "webpack-bundle-analyzer": "3.3.2",
+    "webpack-dev-server": "2.11.1",
+    "webpack-uglify-parallel": "0.1.4"
+  },
+  "resolutions": {
+    "**/graphql": "0.13.2",
+    "**/**/graphql": "0.13.2",
+    "**/**/**/graphql": "0.13.2",
+    "**/**/**/**/graphql": "0.13.2",
+    "**/**/**/**/**/graphql": "0.13.2",
+    "**/**/**/**/**/**/graphql": "0.13.2"
+  }
+}

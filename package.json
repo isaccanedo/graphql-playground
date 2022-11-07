@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "_workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "bash scripts/build.sh",
+    "show-versions": "bash scripts/versions.sh",
+    "release-html": "bash scripts/release-html.sh",
+    "release-react": "bash scripts/release-react.sh"
+  },
+  "devDependencies": {
+    "@types/node": "10.1.4",
+    "aws-lambda": "0.1.2",
+    "express": "4.16.3",
+    "hapi": "17.5.0",
+    "koa": "2.5.1",
+    "rimraf": "2.6.2"
+  },
+  "dependencies": {
+    "dotenv": "^5.0.1"
+  }
+}

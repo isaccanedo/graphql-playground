@@ -1,0 +1,16 @@
+schemaPath: schema.graphql
+projects:
+  db:
+    extensions:
+      # graphcool: graphcool.yml
+      prisma: prisma.yml
+  gateway:
+    extensions:
+      endpoints:
+        default:
+          url: 'https://airbnb.now.sh'
+          subscription: 'wss://airbnb.now.sh'
+        local:
+          url: 'http://localhost:${env:PORT}/graphql'
+          subscription: 'ws://localhost:${env:PORT}'
+
