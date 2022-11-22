@@ -13,7 +13,7 @@ GraphQL IDE para melhores fluxos de trabalho de desenvolvimento (Assinaturas Gra
 $ brew cask install graphql-playground
 ```
 
-## Features
+## Recursos
 
 - ✨ Context-aware autocompletion & error highlighting
 - 📚 Interactive, multi-column docs (keyboard support)
