@@ -7,7 +7,7 @@ GraphQL IDE para melhores fluxos de trabalho de desenvolvimento (Assinaturas Gra
 
 [![](https://i.imgur.com/AE5W6OW.png)](https://graphqlbin.com/v2/6RQ6TM)
 
-## Installation
+## Instalação
 
 ```sh
 $ brew cask install graphql-playground
