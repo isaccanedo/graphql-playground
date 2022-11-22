@@ -17,7 +17,7 @@ $ brew cask install graphql-playground
 
 - ✨ Preenchimento automático sensível ao contexto e destaque de erros;
 - 📚 Documentos interativos com várias colunas (suporte a teclado);
-- ⚡️ Supports real-time GraphQL Subscriptions
+- ⚡️ Suporta assinaturas GraphQL em tempo real;
 - ⚙ GraphQL Config support with multiple Projects & Endpoints
 - 🚥 Apollo Tracing support
 
