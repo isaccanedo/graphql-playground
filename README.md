@@ -15,7 +15,7 @@ $ brew cask install graphql-playground
 
 ## Recursos
 
-- ✨ Context-aware autocompletion & error highlighting
+- ✨ Preenchimento automático sensível ao contexto e destaque de erros;
 - 📚 Interactive, multi-column docs (keyboard support)
 - ⚡️ Supports real-time GraphQL Subscriptions
 - ⚙ GraphQL Config support with multiple Projects & Endpoints
