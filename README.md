@@ -21,7 +21,7 @@ $ brew cask install graphql-playground
 - ⚙ GraphQL Config support with multiple Projects & Endpoints;
 - 🚥 Suporte ao Rastreamento Apollo.
 
-## FAQ
+## Perguntas frequentes
 
 ### How is this different from [GraphiQL](https://github.com/graphql/graphiql)?
 
