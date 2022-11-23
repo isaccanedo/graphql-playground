@@ -53,7 +53,7 @@ Você pode facilmente compartilhar seus Playgrounds com outras pessoas clicando 
 
 > Você também pode encontrar a postagem no blog do anúncio [aqui](https://blog.graph.cool/introducing-graphql-playground-f1e0a018f05d).
 > 
-## Settings
+## Definições
 
 In the top right corner of the Playground window you can click on the settings icon.
 These are the settings currently available:
