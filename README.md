@@ -30,7 +30,7 @@ O GraphQL Playground usa componentes do GraphiQL sob o capô, mas é um GraphQL 
 - Documentação de esquema interativa e com várias colunas;
 - Recarregamento automático do esquema;
 - Suporte para assinaturas GraphQL;
-- Query history
+- Histórico de consultas;
 - Configuration of HTTP headers
 - Tabs
 
