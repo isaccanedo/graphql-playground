@@ -34,7 +34,7 @@ O GraphQL Playground usa componentes do GraphiQL sob o capô, mas é um GraphQL 
 - Configuração de cabeçalhos HTTP;
 - Guias.
 
-See the following question for more additonal features.
+Consulte a pergunta a seguir para obter mais recursos adicionais.
 
 ### What's the difference between the desktop app and the web version?
 
