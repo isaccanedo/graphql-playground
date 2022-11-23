@@ -43,7 +43,7 @@ O aplicativo de desktop é o mesmo que a versão web, mas inclui estes recursos 
 - Suporte parcial para [graphql-config](https://github.com/prismagraphql/graphql-config) permitindo recursos como configurações de vários ambientes (sem suporte para enviar cabeçalhos HTTP).
 - Clique duas vezes em `*.graphql` files.
 
-### How does GraphQL Bin work?
+### Como funciona o GraphQL Bin?
 
 You can easily share your Playgrounds with others by clicking on the "Share" button and sharing the generated link. You can think about GraphQL Bin like Pastebin for your GraphQL queries including the context (endpoint, HTTP headers, open tabs etc).
 
