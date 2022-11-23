@@ -32,7 +32,7 @@ O GraphQL Playground usa componentes do GraphiQL sob o capô, mas é um GraphQL 
 - Suporte para assinaturas GraphQL;
 - Histórico de consultas;
 - Configuração de cabeçalhos HTTP;
-- Tabs
+- Guias.
 
 See the following question for more additonal features.
 
