@@ -45,7 +45,7 @@ O aplicativo de desktop é o mesmo que a versão web, mas inclui estes recursos 
 
 ### Como funciona o GraphQL Bin?
 
-Você pode facilmente compartilhar seus Playgrounds com outras pessoas clicando no botão "Compartilhar" e compartilhando o link gerado. You can think about GraphQL Bin like Pastebin for your GraphQL queries including the context (endpoint, HTTP headers, open tabs etc).
+Você pode facilmente compartilhar seus Playgrounds com outras pessoas clicando no botão "Compartilhar" e compartilhando o link gerado. Você pode pensar no GraphQL Bin como Pastebin para suas consultas GraphQL, incluindo o contexto (endpoint, cabeçalhos HTTP, abas abertas, etc.).
 
 <a href="https://graphqlbin.com/OksD" target="_blank">
  <img src="https://camo.githubusercontent.com/daf8c64dbde3097fdbe782c0645552550d530a73/68747470733a2f2f696d6775722e636f6d2f48316e36346c4c2e706e67" alt="" data-canonical-src="https://imgur.com/H1n64lL.png" style="max-width:100%;">
