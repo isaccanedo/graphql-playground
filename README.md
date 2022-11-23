@@ -55,8 +55,8 @@ Você pode facilmente compartilhar seus Playgrounds com outras pessoas clicando 
 > 
 ## Definições
 
-In the top right corner of the Playground window you can click on the settings icon.
-These are the settings currently available:
+No canto superior direito da janela do Playground, você pode clicar no ícone de configurações.
+Estas são as configurações atualmente disponíveis:
 
 ```js
 {
