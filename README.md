@@ -25,7 +25,7 @@ $ brew cask install graphql-playground
 
 ###Como isso é diferente do [GraphiQL](https://github.com/graphql/graphiql)?
 
-GraphQL Playground uses components of GraphiQL under the hood but is meant as a more powerful GraphQL IDE enabling better (local) development workflows. Compared to GraphiQL, the GraphQL Playground ships with the following additional features:
+O GraphQL Playground usa componentes do GraphiQL sob o capô, mas é um GraphQL IDE mais poderoso, permitindo melhores fluxos de trabalho de desenvolvimento (local). Compared to GraphiQL, the GraphQL Playground ships with the following additional features:
 
 - Documentação de esquema interativa e com várias colunas;
 - Automatic schema reloading
