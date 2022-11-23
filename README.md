@@ -36,7 +36,7 @@ O GraphQL Playground usa componentes do GraphiQL sob o capô, mas é um GraphQL 
 
 Consulte a pergunta a seguir para obter mais recursos adicionais.
 
-### What's the difference between the desktop app and the web version?
+### Qual é a diferença entre o aplicativo para desktop e a versão web?
 
 The desktop app is the same as the web version but includes these additional features:
 
