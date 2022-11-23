@@ -40,7 +40,7 @@ Consulte a pergunta a seguir para obter mais recursos adicionais.
 
 O aplicativo de desktop é o mesmo que a versão web, mas inclui estes recursos adicionais:
 
-- Partial support for [graphql-config](https://github.com/prismagraphql/graphql-config) enabling features like multi-environment setups (no support for sending HTTP headers).
+- Suporte parcial para [graphql-config](https://github.com/prismagraphql/graphql-config) permitindo recursos como configurações de vários ambientes (sem suporte para enviar cabeçalhos HTTP).
 - Double click on `*.graphql` files.
 
 ### How does GraphQL Bin work?
