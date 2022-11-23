@@ -38,7 +38,7 @@ Consulte a pergunta a seguir para obter mais recursos adicionais.
 
 ### Qual é a diferença entre o aplicativo para desktop e a versão web?
 
-The desktop app is the same as the web version but includes these additional features:
+O aplicativo de desktop é o mesmo que a versão web, mas inclui estes recursos adicionais:
 
 - Partial support for [graphql-config](https://github.com/prismagraphql/graphql-config) enabling features like multi-environment setups (no support for sending HTTP headers).
 - Double click on `*.graphql` files.
