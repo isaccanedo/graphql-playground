@@ -51,8 +51,8 @@ Você pode facilmente compartilhar seus Playgrounds com outras pessoas clicando 
  <img src="https://camo.githubusercontent.com/daf8c64dbde3097fdbe782c0645552550d530a73/68747470733a2f2f696d6775722e636f6d2f48316e36346c4c2e706e67" alt="" data-canonical-src="https://imgur.com/H1n64lL.png" style="max-width:100%;">
 </a>
 
-> You can also find the announcement blog post [here](https://blog.graph.cool/introducing-graphql-playground-f1e0a018f05d).
-
+> Você também pode encontrar a postagem no blog do anúncio [aqui](https://blog.graph.cool/introducing-graphql-playground-f1e0a018f05d).
+> 
 ## Settings
 
 In the top right corner of the Playground window you can click on the settings icon.
