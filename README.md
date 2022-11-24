@@ -82,7 +82,7 @@ Estas são as configurações atualmente disponíveis:
 
 ### Propriedades
 
-The React component `<Playground />` and all middlewares expose the following options:
+O componente React `<Playground />` e todos os middlewares expõem as seguintes opções:
 
 - `props` (Middlewares & React Component)
   - `endpoint` [`string`](optional) - the GraphQL endpoint url.
