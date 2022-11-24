@@ -111,7 +111,7 @@ interface ISettings {
 }
 ```
 
-- `schema` [`IntrospectionResult`](optional) - The result of an introspection query (an object of this form: `{__schema: {...}}`) The playground automatically fetches the schema from the endpoint. This is only needed when you want to override the schema.
+- `schema` [`IntrospectionResult`](optional) -O resultado de uma consulta de introspecção (um objeto desta forma: `{__schema: {...}}`) O playground busca automaticamente o esquema do terminal. Isso só é necessário quando você deseja substituir o esquema.
 - `tabs` [`Tab[]`](optional) - Uma matriz de guias para injetar. **Observação: ao usar esse recurso, as guias serão redefinidas sempre que a página for recarregada**
 
 ```ts
