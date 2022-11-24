@@ -134,7 +134,7 @@ Além disso, o aplicativo React fornece mais algumas propriedades:
 
 ### Como Página HTML
 
-If you simply want to render the Playground HTML on your own, for example when implementing a GraphQL Server, there are 2 options for you:
+Se você simplesmente deseja renderizar o HTML do Playground por conta própria, por exemplo, ao implementar um GraphQL Server, existem 2 opções para você:
 
 1.  [The bare minimum HTML needed to render the Playground](https://github.com/prismagraphql/graphql-playground/blob/master/packages/graphql-playground-html/minimal.html)
 2.  [The Playground HTML with full loading animation](https://github.com/prismagraphql/graphql-playground/blob/master/packages/graphql-playground-html/withAnimation.html)
