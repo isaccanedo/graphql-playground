@@ -80,7 +80,7 @@ Estas são as configurações atualmente disponíveis:
 
 ## Uso
 
-### Properties
+### Propriedades
 
 The React component `<Playground />` and all middlewares expose the following options:
 
