@@ -184,7 +184,7 @@ ReactDOM.render(
 )
 ```
 
-### As Server Middleware
+### Como middleware de servidor
 
 #### Install
 
