@@ -149,7 +149,7 @@ Observação: caso você não queira servir ativos de um CDN (como jsDelivr) e, 
 yarn add graphql-playground-react
 ```
 
-#### Use
+#### Uso
 
 GraphQL Playground provides a React component responsible for rendering the UI and Session management.
 There are **3 dependencies** needed in order to run the `graphql-playground-react` React component.
