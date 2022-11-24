@@ -141,7 +141,7 @@ Se você simplesmente deseja renderizar o HTML do Playground por conta própria,
 
 Note: In case you do not want to serve assets from a CDN (like jsDelivr) and instead use a local copy, you will need to install `graphql-playground-react` from npm, and then replace all instances of `//cdn.jsdelivr.net/npm` with `./node_modules`. An example can be found [here](https://github.com/prismagraphql/graphql-playground/blob/master/packages/graphql-playground-html/minimalWithoutCDN.html)
 
-### As React Component
+### Como Componente de Reação
 
 #### Install
 
