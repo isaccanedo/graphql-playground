@@ -143,7 +143,7 @@ Observação: caso você não queira servir ativos de um CDN (como jsDelivr) e, 
 
 ### Como Componente de Reação
 
-#### Install
+#### Instalação
 
 ```sh
 yarn add graphql-playground-react
