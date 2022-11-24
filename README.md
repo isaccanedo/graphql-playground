@@ -132,7 +132,7 @@ Além disso, o aplicativo React fornece mais algumas propriedades:
 
 `createApolloLink` só está disponível no componente React e não nos middlewares, porque o conteúdo deve ser serializável à medida que é impresso em um modelo HTML.
 
-### As HTML Page
+### Como Página HTML
 
 If you simply want to render the Playground HTML on your own, for example when implementing a GraphQL Server, there are 2 options for you:
 
