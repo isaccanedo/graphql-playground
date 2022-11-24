@@ -139,7 +139,7 @@ Se você simplesmente deseja renderizar o HTML do Playground por conta própria,
 1.  [O HTML mínimo necessário para renderizar o Playground](https://github.com/prismagraphql/graphql-playground/blob/master/packages/graphql-playground-html/minimal.html)
 2.  [The Playground HTML with full loading animation](https://github.com/prismagraphql/graphql-playground/blob/master/packages/graphql-playground-html/withAnimation.html)
 
-Note: In case you do not want to serve assets from a CDN (like jsDelivr) and instead use a local copy, you will need to install `graphql-playground-react` from npm, and then replace all instances of `//cdn.jsdelivr.net/npm` with `./node_modules`. An example can be found [here](https://github.com/prismagraphql/graphql-playground/blob/master/packages/graphql-playground-html/minimalWithoutCDN.html)
+Observação: caso você não queira servir ativos de um CDN (como jsDelivr) e, em vez disso, usar uma cópia local, será necessário instalar `graphql-playground-react` do npm e, em seguida, substituir todas as instâncias de `//cdn .jsdelivr.net/npm` com `./node_modules`. An example can be found [here](https://github.com/prismagraphql/graphql-playground/blob/master/packages/graphql-playground-html/minimalWithoutCDN.html)
 
 ### Como Componente de Reação
 
