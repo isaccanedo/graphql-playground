@@ -78,7 +78,7 @@ Estas são as configurações atualmente disponíveis:
 }
 ```
 
-## Usage
+## Uso
 
 ### Properties
 
