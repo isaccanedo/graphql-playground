@@ -112,7 +112,7 @@ interface ISettings {
 ```
 
 - `schema` [`IntrospectionResult`](optional) - The result of an introspection query (an object of this form: `{__schema: {...}}`) The playground automatically fetches the schema from the endpoint. This is only needed when you want to override the schema.
-- `tabs` [`Tab[]`](optional) - An array of tabs to inject. **Note: When using this feature, tabs will be resetted each time the page is reloaded**
+- `tabs` [`Tab[]`](optional) - Uma matriz de guias para injetar. **Observação: ao usar esse recurso, as guias serão redefinidas sempre que a página for recarregada**
 
 ```ts
 interface Tab {
