@@ -157,9 +157,9 @@ Existem **3 dependências** necessárias para executar o componente React `graph
 1.  _Open Sans_ and _Source Code Pro_ fonts
 2.  Rendering the `<Playground />` component
 
-The GraphQL Playground requires **React 16**.
+O GraphQL Playground requer **React 16**.
 
-Including Fonts (`1.`)
+Incluindo Fontes (`1.`)
 
 ```html
 <link
