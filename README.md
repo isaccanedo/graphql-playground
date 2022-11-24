@@ -151,8 +151,8 @@ yarn add graphql-playground-react
 
 #### Uso
 
-GraphQL Playground provides a React component responsible for rendering the UI and Session management.
-There are **3 dependencies** needed in order to run the `graphql-playground-react` React component.
+O GraphQL Playground fornece um componente React responsável por renderizar a interface do usuário e o gerenciamento de sessão.
+Existem **3 dependências** necessárias para executar o componente React `graphql-playground-react`.
 
 1.  _Open Sans_ and _Source Code Pro_ fonts
 2.  Rendering the `<Playground />` component
