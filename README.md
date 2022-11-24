@@ -125,7 +125,7 @@ interface Tab {
 }
 ```
 
-In addition to this, the React app provides some more properties:
+Além disso, o aplicativo React fornece mais algumas propriedades:
 
 - `props` (React Component)
 - `createApolloLink` [`(session: Session, subscriptionEndpoint?: string) => ApolloLink`] - this is the equivalent to the `fetcher` of GraphiQL. For each query that is being executed, this function will be called
