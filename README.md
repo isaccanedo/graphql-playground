@@ -221,7 +221,7 @@ yarn add graphql-playground-middleware-lambda
 `handler.js`
 
 ```js
-import lambdaPlayground from 'graphql-playground-middleware-lambda'
+importar lambdaPlayground de 'graphql-playground-middleware-lambda'
 // or using require()
 // const lambdaPlayground = require('graphql-playground-middleware-lambda').default
 
