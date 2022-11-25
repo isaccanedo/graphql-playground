@@ -216,7 +216,7 @@ Temos um exemplo completo para cada um dos frameworks abaixo:
 yarn add graphql-playground-middleware-lambda
 ```
 
-#### Usage
+#### Uso
 
 `handler.js`
 
