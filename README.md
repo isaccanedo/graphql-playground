@@ -186,7 +186,7 @@ ReactDOM.render(
 
 ### Como middleware de servidor
 
-#### Install
+#### Instalação
 
 ```sh
 # Pick the one that matches your server framework
