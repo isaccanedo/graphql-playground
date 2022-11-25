@@ -274,8 +274,8 @@ Open
 
 ## Tema personalizado
 
-From `graphql-playground-react@1.7.0` on you can provide a `codeTheme` property to the React Component to customize your color theme.
-These are the available options:
+De `graphql-playground-react@1.7.0` em diante, você pode fornecer uma propriedade `codeTheme` ao componente React para personalizar seu tema de cores.
+Estas são as opções disponíveis:
 
 ```ts
 export interface EditorColours {
