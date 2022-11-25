@@ -272,7 +272,7 @@ $ yarn start
 Open
 [localhost:3000/localDev.html?endpoint=https://api.graph.cool/simple/v1/swapi](http://localhost:3000/localDev.html?endpoint=https://api.graph.cool/simple/v1/swapi) for local development!
 
-## Custom Theme
+## Tema personalizado
 
 From `graphql-playground-react@1.7.0` on you can provide a `codeTheme` property to the React Component to customize your color theme.
 These are the available options:
