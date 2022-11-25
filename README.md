@@ -196,7 +196,7 @@ yarn add graphql-playground-middleware-koa
 yarn add graphql-playground-middleware-lambda
 ```
 
-#### Usage with example
+#### Uso com exemplo
 
 We have a full example for each of the frameworks below:
 
