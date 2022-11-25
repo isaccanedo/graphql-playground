@@ -198,7 +198,7 @@ yarn add graphql-playground-middleware-lambda
 
 #### Uso com exemplo
 
-We have a full example for each of the frameworks below:
+Temos um exemplo completo para cada um dos frameworks abaixo:
 
 - **Express:** See [packages/graphql-playground-middleware-express/examples/basic](https://github.com/prismagraphql/graphql-playground/tree/master/packages/graphql-playground-middleware-express/examples/basic)
 
