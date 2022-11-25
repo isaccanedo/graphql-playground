@@ -323,6 +323,6 @@ In the folder `packages` you'll find the following packages:
 
 ## Ajuda e comunidade [![Status do Slack](https://slack.prisma.io/badge.svg)](https://slack.prisma.io)
 
-Join our [Slack community](http://slack.graph.cool/) if you run into issues or have questions. We love talking to you!
+Junte-se à nossa [comunidade Slack](http://slack.graph.cool/) se você tiver problemas ou dúvidas. Adoramos falar com você!
 
 <p align="center"><a href="https://oss.prisma.io"><img src="https://imgur.com/IMU2ERq.png" alt="Prisma" height="170px"></a></p>
