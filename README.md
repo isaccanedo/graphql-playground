@@ -210,7 +210,7 @@ Temos um exemplo completo para cada um dos frameworks abaixo:
 
 ### As serverless handler
 
-#### Install
+#### Instalação
 
 ```sh
 yarn add graphql-playground-middleware-lambda
