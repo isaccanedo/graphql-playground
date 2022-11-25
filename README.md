@@ -305,7 +305,7 @@ export interface EditorColours {
 
 ### Versões
 
-Este repositório é um "repo mono" e contém vários pacotes usando [Yarn workspaces](https://yarnpkg.com/lang/en/docs/workspaces/). Please be aware that versions are **not** synchronised between packages. The versions of the [release page](https://github.com/graphcool/graphql-playground/releases) refer to the electron app.
+Este repositório é um "repo mono" e contém vários pacotes usando [Yarn workspaces](https://yarnpkg.com/lang/en/docs/workspaces/). Esteja ciente de que as versões **não** são sincronizadas entre os pacotes. As versões da [página de lançamento](https://github.com/graphcool/graphql-playground/releases) referem-se ao aplicativo electronic.
 
 ### Pacotes
 
