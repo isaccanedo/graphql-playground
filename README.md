@@ -208,7 +208,7 @@ Temos um exemplo completo para cada um dos frameworks abaixo:
 
 - **Lambda (as serverless handler):** See [serverless-graphql-apollo](https://github.com/serverless/serverless-graphql-apollo) or a quick example below.
 
-### As serverless handler
+### Como manipulador sem servidor
 
 #### Instalação
 
