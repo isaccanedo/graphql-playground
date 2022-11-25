@@ -309,7 +309,7 @@ Este repositório é um "repo mono" e contém vários pacotes usando [Yarn works
 
 ### Pacotes
 
-In the folder `packages` you'll find the following packages:
+Na pasta `packages` você encontrará os seguintes pacotes:
 
 - `graphql-playground-electron`: Cross-platform electron app which uses `graphql-playground-react`
 - `graphql-playground-html`: Simple HTML page rendering a version of `graphql-playground-react` hosted on JSDeliver
