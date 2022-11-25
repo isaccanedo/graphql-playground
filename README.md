@@ -261,7 +261,7 @@ functions:
           cors: true
 ```
 
-## Development
+## Desenvolvimento
 
 ```sh
 $ cd packages/graphql-playground-react
