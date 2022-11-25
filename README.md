@@ -168,7 +168,7 @@ Incluindo Fontes (`1.`)
 />
 ```
 
-Including stylesheet and the component (`2., 3.`)
+Incluindo a folha de estilo e o componente (`2., 3.`)
 
 ```js
 import React from 'react'
